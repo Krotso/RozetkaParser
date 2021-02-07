@@ -10,7 +10,7 @@ PATH = 'items.json'
 
 # Open answers for bot commands and
 # returns JSON object as a dictionary
-with open('comand_answer.json', encoding='utf-8') as file:
+with open('RozetkaParser/comand_answer.json', encoding='utf-8') as file:
   answers = json.load(file)
   answers = answers[0]
 
